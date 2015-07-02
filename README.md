@@ -28,8 +28,8 @@ Dependencies
 How to Run?
 ------------
 * There are two ways to run the file:-
-1. Run the MainWindow.java class in src/com/care/gui.
-2. Run the Main.java class in src/com/care/main. System argument for this should contain the path of config file.
+  1. Run the MainWindow.java class in src/com/care/gui.
+  2. Run the Main.java class in src/com/care/main. System argument for this should contain the path of config file.
 
 How to write Component?
 ------------------------
