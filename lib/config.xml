@@ -1,0 +1,25 @@
+<config>
+    <input>
+        <type>File</type>
+        <path>test/resources/InputFile.txt</path>
+        <parseType>string</parseType>
+    </input>
+    <components>
+        <component>
+            <loadType>class</loadType>
+            <type>pre_processor</type>
+            <path>bin/resources/</path>
+            <className>resources.PreProcessor</className>
+        </component>
+        <component>
+            <type>pre_processor</type>
+            <path>bin/resources/</path>
+            <className>resources.PreProcessor</className>
+        </component>
+    </components>
+    <output>
+        <type>File</type>
+        <path>test/resources/OutputFile.txt</path>
+        <generateType>list</generateType>
+    </output>
+</config>

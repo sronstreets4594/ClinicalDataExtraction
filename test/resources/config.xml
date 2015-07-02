@@ -1,0 +1,26 @@
+<config>
+	<input>
+		<type>Folder</type>
+		<path>test/resources/InputFile.txt</path>
+		<parseType>string</parseType>
+	</input>
+	<components>
+		<component>
+			<loadType>class</loadType>
+			<type>pre_processor</type>
+			<path>bin/sample/preprocessor/</path>
+			<className>sample.preprocessor.SamplePreProcessor</className>
+		</component>
+		<component>
+			<loadType>class</loadType>
+			<type>de_identifier</type>
+			<path>bin/sample/deidentifier/</path>
+			<className>sample.deidentifier.SampleDeIdentifier</className>
+		</component>
+	</components>
+	<output>
+		<type>Folder</type>
+		<path>test/resources/OutputFile.txt</path>
+		<generateType>list</generateType>
+	</output>
+</config>
